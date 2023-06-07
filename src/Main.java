@@ -2,19 +2,16 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-
-        Pessoa pessoa1;
-        Pessoa pessoa2;
-       Piloto piloto;
-       Balao balao;
-       int duracao;
-       double valor;
-       ArrayList<Pessoa> passageiros;
-    }
-      Pessoa qualquer = new Pessoa();
-      Pessoa passageiros;
-
-      public void adicionarPassageiro(Pessoa passageiros){
+        // Construir balão
+        Balao b1 = new Balao();
+        // Acionar voo do balão
+        // Chamada do método voar()
+        String resposta = b1.voar(new Combustivel());
+        // Apresentação do retorno
+        System.out.println(resposta);
+        Balao b2 = new Balao();
+        Combustivel alcool = new Combustivel();
+        System.out.println(b2.voar(alcool));
 
 
 

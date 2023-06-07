@@ -1,11 +1,19 @@
 public class Balao {
 
-     String identificacao;
-     String registroRegularidade;
-     Piloto piloto;
-     Balao balao;
-     int duracao;
-     double valor;
+    // Atributos
+     int id;
+     String registro;
+     String cor;
+     String tipo;
+     double altura;
+     double peso;
+     int capacidade;
+     double valorBalao;
+
+     // Métodos
+     public String voar(Combustivel gasPropano){
+          return "voando com " + gasPropano;
+     }
 
 }
 
